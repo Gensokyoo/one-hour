@@ -3,7 +3,7 @@ import'font-awesome/css/font-awesome.css'
 
 import'./index.html'
 
-import Elm from './Main.elm'
-const mountNode = document.getElementById('main')
+var Elm = require('./Main.elm')
+var mountNode = document.getElementById('main')
 
-const app = Elm.Main.embed(mountNode)
+var app = Elm.Main.embed(mountNode)
